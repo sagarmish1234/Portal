@@ -1,0 +1,100 @@
+.pageheading {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 45px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  display: table-cell;
+  margin-top: 8px;
+}
+
+.developers {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 45px;
+  color: rgb(182, 181, 181);
+  text-align: end;
+  display: table-cell;
+  margin-top: 12px;
+  font-size: 10px;
+}
+
+.mainDiv {
+  width: 100%;
+  padding: 5px;
+}
+
+.mainTable {
+  width: 100%;
+}
+
+.rowstyle {
+  font-family: Verdana;
+  font-size: 12px; /*text-decoration: none;*/
+  vertical-align: middle;
+  text-align: left;
+  background-color: #ffedd9;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.dashboardmaintable {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dashboardbox {
+  border-radius: 25px;
+  border: 2px solid #e7eefa;
+  padding: 20px;
+  width: 250px;
+  height: 120px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.dashboardbox:hover {
+  border: 2px solid #0018f1;
+  -webkit-box-shadow: 3px 7px 39px -17px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 7px 39px -17px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 7px 39px -17px rgba(0, 0, 0, 0.75);
+}
+
+.dashboardboxheading {
+  font-size: 13px;
+  display: inline;
+  font-weight: bold;
+}
+
+.dashboardboxvalue {
+  display: inline;
+  font-size: 17px;
+  text-align: right;
+  float: right;
+}
+
+.dashboardboxpercentagebox {
+  margin-top: 30px;
+}
+
+.dashboardboxpercentagetitle {
+  font-size: 13px;
+  display: inline;
+}
+
+.dashboardboxpercentage {
+  float: right;
+  font-size: 13px;
+  display: inline;
+}
+
+.dashboardboxbar {
+  border: 2px solid #d8dbf7;
+  margin-top: 5px;
+}

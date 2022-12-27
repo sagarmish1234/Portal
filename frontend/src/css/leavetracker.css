@@ -1,0 +1,222 @@
+.leaveTrackerTable {
+  font-size: 14px;
+  color: #8e2e6c;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.leaveTrackerHeadingRowTD {
+  width: 10%;
+  white-space: nowrap;
+  align-content: flex-start;
+  padding: 10px;
+}
+.leaveTrackerHeadingRowRemaining {
+  width: 50%;
+  white-space: nowrap;
+}
+
+.adminTableDropDownTD {
+  width: 33%;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.adminTableDataRow {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.adminTableDataTable {
+  /*Design change */
+  /*background:url('../images/tableHead.gif') repeat-x;  previous*/
+  /*new  Start*/
+  background-color: #f8bd83;
+  /*End */
+  height: 30px;
+
+  /* color:#054389; Old */
+  color: Black;
+  margin-top: 15px;
+  font-size: 11px;
+  font-family: Verdana;
+  text-align: left;
+}
+
+.leaveTrackerTableContainer {
+  text-align: center;
+}
+
+.formsubmitbutton1 {
+  width: 30%;
+  margin-top: 10px;
+  float: none;
+}
+
+.formheading {
+  background-color: white;
+  padding: 2px;
+  text-align: center;
+  color: grey;
+}
+
+.task {
+  background-color: #f8bd83;
+}
+.leaveTrackerTableContainer {
+  margin-left: 5px;
+  border-radius: 7px;
+  margin-right: 7px;
+}
+
+.workingdayscol {
+  /* background-color: #9ad9f2; */
+  height: 30px;
+  border-right: 1px solid #fff;
+  color: Black;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: Verdana;
+  text-align: center;
+}
+
+.leavesTrackerSaveButton {
+  display: block;
+  margin: auto;
+  margin-top: 32px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #f8bd83;
+  color: rgb(246, 242, 242);
+  padding: 7px;
+  transform: scale(1.1);
+}
+
+.yellow {
+  background-color: #ffffff;
+}
+
+.green {
+  background-color: #fadfc6;
+}
+
+.leaveTrackerTableData {
+  border: 1px solid rgb(129, 100, 100);
+  margin-top: 40px;
+}
+
+.leaveTrackerMonth {
+  /* background-color: #9ad9f2; */
+  height: 30px;
+  border-right: 1px solid #fff;
+  color: Black;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: Verdana;
+  text-align: center;
+}
+
+.adminTableheader {
+  height: min-content;
+  margin: 0%;
+}
+
+.leaveTrackerStatusSelection {
+  padding: 5px 4px;
+  width: 44.5px;
+  font-size: 10px;
+  text-align: left;
+}
+
+.leaveTableCell {
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 2px 5.5px;
+  font-weight: 600;
+  width: min-content;
+  text-align: center;
+  color: black;
+  appearance: none;
+  cursor: pointer;
+}
+
+.yearDropDown {
+  border-radius: 10px;
+  margin-left: 10px;
+  text-align: left;
+  font-size: 8px;
+  height: 10px;
+}
+
+.L {
+  background-color: #ffb9b9;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.W {
+  background-color: #ffffff;
+  color: rgb(199, 193, 193);
+}
+
+.yellowT {
+  background-color: #ffffff;
+  color: black;
+  border-bottom: 1px solid rgb(218, 190, 190);
+  text-align: center;
+  font-weight: 600;
+}
+
+.purpleT {
+  background-color: #fadfc6;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid rgb(218, 190, 190);
+}
+
+.adminTableHeader {
+  width: 72px;
+  text-align: center;
+  padding: 0px 5px;
+}
+
+.small {
+  font-size: 0.7rem;
+  padding: 3px 10px;
+  font-weight: 500;
+}
+
+.leaveTableCell.noDrop {
+  appearance: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 2px 5.5px;
+  cursor: pointer;
+}
+
+.verticalText {
+  /* text-orientation:upright; */
+  writing-mode: vertical-lr;
+}
+
+.admintabledropdowns {
+  text-align: right;
+  margin-top: 35px;
+}
+
+.admintabledropdownscol {
+  text-align: left;
+  width: 33%;
+}
+
+.admintabledata {
+  text-align: right;
+  margin-top: 100px;
+}
+
+.tdHover:hover {
+  background-color: #f09440;
+  color: white;
+}

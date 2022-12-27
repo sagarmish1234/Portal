@@ -1,0 +1,82 @@
+.monthModalBackground {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.monthModalContainer {
+  position: relative;
+  width: min-content;
+  margin: auto;
+  margin-top: 100px;
+  text-align: right;
+  background-color: white;
+  padding: 60px 20px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+.monthModalHeader {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.monthModalEmployee {
+  text-align: left;
+}
+
+.monthModalTable {
+  width: 70%;
+}
+
+.monthModalCloseButton {
+  position: absolute;
+  top: 20px;
+  color: white;
+  right: 30px;
+  color: black;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.yearModalBackground {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.yearModalContainer {
+  position: relative;
+  text-align: right;
+  margin: auto;
+  margin-top: 40px;
+  background-color: white;
+  width: min-content;
+  border: 1px solid black;
+  padding: 20px 20px;
+  padding-top: 30px;
+}
+
+.yearModalHeader {
+  margin-left: 35px;
+  display: flex;
+  justify-content: start;
+  gap: 2px;
+}
+.modalLegend {
+  display: inline-flex;
+  /* flex-direction: column; */
+  /* align-items: flex-end; */
+  justify-content: flex-end;
+  font-size: 0.65rem;
+  gap: 10px;
+  border: 1px solid rgb(202, 199, 199);
+  margin-top: 10px;
+  color: rgb(146, 143, 143);
+  padding: 5px;
+  font-weight: 500;
+  border-radius: 5px;
+}

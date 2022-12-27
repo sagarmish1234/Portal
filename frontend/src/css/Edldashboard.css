@@ -1,0 +1,96 @@
+.profile {
+  width: 95%;
+  height: 60%;
+  text-align: left;
+  border-color: #385067;
+  color: rgb(7, 7, 7);
+  align-content: flex-end;
+  border-style: solid;
+  position: relative;
+  float: left;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.chart {
+  width: 600px;
+  height: 300px;
+  display: block;
+}
+
+.numbers {
+  color: rgb(15, 14, 14);
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.numbers li {
+  list-style: none;
+  height: 47px;
+  position: relative;
+  bottom:2px; 
+}
+
+.number span {
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.bars {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-weight: 600;
+  background: rgb(226, 239, 247); 
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+
+  border-radius: 5px;
+}
+
+.bars li {
+  display: table-cell;
+  width: 100px;
+  height: 300px;
+  position: relative;
+}
+
+.bars span {
+  width: 100%;
+  position: absolute;
+  bottom: -30px;
+  text-align: center;
+}
+
+.bars .bar {
+  display: block;
+  background: rgb(146, 206, 241);
+  width: 20px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  transition:0.5s;
+  transition-property: background, box-shadow;
+}
+
+.bars .bar:hover{
+  background: #385067;
+  cursor: pointer;
+}
+
+.bars .bar:before{
+  color:#fff;
+   
+}
+
+

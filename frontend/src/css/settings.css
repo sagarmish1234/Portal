@@ -1,0 +1,30 @@
+.tdcentercontent {
+  border-right: 1px solid #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tdleftcontent {
+  border-right: 1px solid #fff;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.tdeditablecontent {
+  border-right: 1px solid #fff;
+  text-align: left;
+  white-space: nowrap;
+  width: 70%;
+}
+.inputeditablecontent {
+  width: 100%;
+}
+
+.formsubmitbutton {
+  width: 100%;
+  margin-top: 10px;
+  align-content: center;
+  border: black;
+  /*border-style: double;*/
+  text-align: center;
+}

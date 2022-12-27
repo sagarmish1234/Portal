@@ -1,0 +1,84 @@
+th {
+  background-color: #f8bd83;
+  height: 30px;
+  border-right: 1px solid #fff;
+  color: Black;
+  font-size: 11px;
+  font-family: Verdana;
+  text-align: center;
+}
+
+td {
+  border-right: 1px solid #fff;
+}
+
+.tdleftcontent {
+  border-right: 1px solid #fff;
+  text-align: left;
+}
+
+.tdcentercontent {
+  border-right: 1px solid #fff;
+  text-align: center;
+}
+
+.tdrightcontent {
+  border-right: 1px solid #fff;
+  text-align: right;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  text-align: left;
+}
+
+.panelistrow {
+  font-family: Verdana;
+  font-size: 11px; /*text-decoration: none;*/
+  vertical-align: middle;
+  text-align: right;
+  background-color: #ffedd9;
+  border-color: #f0ab96;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.notactiverow {
+  font-family: Verdana;
+  font-size: 11px; /*text-decoration: none;*/
+  vertical-align: middle;
+  text-align: right;
+  background-color: rgba(87, 83, 83, 0.137);
+  border-color: #f0ab96;
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(105, 101, 101);
+  text-decoration: line-through;
+}
+
+.delete {
+  color: red;
+  border: white;
+}
+
+.createdrive {
+  background-color: #f0ab96;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  border-color: white;
+  float: right;
+  margin-right: 2.75%;
+  margin-top: 0.75%;
+  border: solid;
+}
+
+.tabledesc {
+  color: #212529;
+  font-size: 0.9rem;
+  margin-left: 2.5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}

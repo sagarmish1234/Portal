@@ -1,0 +1,12 @@
+.wrapper {
+  overflow: auto;
+}
+
+.loginregister {
+  position: absolute;
+  right: 20px;
+}
+
+.logout {
+  float: left;
+}

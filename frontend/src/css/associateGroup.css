@@ -1,0 +1,104 @@
+.associateGroupCreate {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.associateGroupTable {
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+.deleteButton {
+  height: min-content;
+  padding: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.lightBackgroundColor {
+  background-color: rgba(247, 170, 170, 0.486);
+  margin-top: 10px;
+}
+.lightBackgroundColor2 {
+  background-color: rgba(152, 152, 250, 0.527);
+}
+
+.associateCurrentGroup {
+  display: block;
+  width: 60%;
+  padding: 40px 20px;
+  background-color: #f8f2f2;
+  margin: auto;
+}
+
+.associateCurrentGroupHeader {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  gap: 30px;
+}
+
+.groupName {
+  font-size: 16px;
+}
+.associateGroupAddAssociate {
+  display: flex;
+  width: 90%;
+  margin-bottom: 30px;
+  gap: 10px;
+
+  justify-content: flex-start;
+}
+
+.gdvheaderTable {
+  margin-top: 20px;
+}
+
+.gdvheader {
+  /*Design change */
+  /*background:url('../images/tableHead.gif') repeat-x;  previous*/
+  /*new  Start*/
+  background-color: #f8bd83;
+  height: 30px;
+  border-right: 1px solid #fff;
+  color: Black;
+  font-size: 11px;
+  font-family: Verdana;
+  text-align: center;
+}
+
+.profilerow {
+  font-family: Verdana;
+  font-size: 11px; /*text-decoration: none;*/
+  vertical-align: middle;
+  text-align: left;
+  background-color: #ffedd9;
+  border-color: #f0ab96;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.groupname {
+  width: 15%;
+}
+.groupmem {
+  width: 70%;
+}
+.groupaction {
+  width: 15%;
+}
+
+.margintop {
+  margin-top: 20px;
+  padding-top: 100px;
+}
+
+.divbuttoncenter {
+  text-align: right;
+  margin-top: 15px;
+  margin-right: 30px;
+}

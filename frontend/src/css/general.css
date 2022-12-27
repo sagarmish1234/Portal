@@ -1,0 +1,22 @@
+.developedby {
+  position: absolute;
+  color: rgb(201, 197, 197);
+  user-select: none;
+  font-weight: 10;
+  right: 2px;
+  top: 45px;
+  font-size: 10px;
+}
+
+.links {
+  color: blue;
+  font-size: 13px;
+  width: 100%;
+  text-align: right;
+  margin-top: 8px;
+}
+
+.formsubmitbutton {
+  width: 100%;
+  margin-top: 10px;
+}

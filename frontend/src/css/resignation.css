@@ -1,0 +1,30 @@
+.gdvheader {
+    /*Design change */
+    /*background:url('../images/tableHead.gif') repeat-x;  previous*/
+    /*new  Start*/
+    background-color: #f8bd83;
+    /*End */
+    height: 30px;
+    /* color:#054389; Old */
+    color: Black;
+  
+    font-size: 11px;
+    font-family: Verdana;
+    text-align: center;
+  }
+
+  .tdcontent {
+    font-family: Verdana;
+    font-size: 11px; /*text-decoration: none;*/
+    vertical-align: middle;
+    text-align: left;
+    background-color: #ffe9c3;
+  }
+
+  .save{
+    border: none;
+    background-color: #1aa3ff;
+    width: 80px;
+    color: black;
+    
+  }
