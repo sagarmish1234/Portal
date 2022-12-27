@@ -10,7 +10,8 @@ export const PASSWORD_MAX_LENGTH = 20;
 
 //export const BACKEND_URL = "https://10.242.220.197";
 //export const BACKEND_URL = "https://192.168.0.5";
-export const BACKEND_URL = `http://${window.location.host}`;
+// export const BACKEND_URL = `http://${window.location.host}`;
+export const BACKEND_URL = "http://localhost:8080/firstDeploy"
 
 export const API_URL = BACKEND_URL + "/api";
 export const STORY_COMPLETION_THRESHOLD = 1;
