@@ -1,5 +1,6 @@
 {
   "name": "jpmcportal",
+  "homepage":"http://localhost:8080/firstDeploy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
