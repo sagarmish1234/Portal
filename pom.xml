@@ -19,8 +19,8 @@
         <java.version>11</java.version>
         <frontend-src-dir>${project.basedir}/frontend</frontend-src-dir>
         <frontend-maven-plugin.version>1.12.1</frontend-maven-plugin.version>
-        <node.version>v18.12.1</node.version>
-        <npm.version>9.2.0</npm.version>
+         <nodeVersion>v12.22.7</nodeVersion>
+         <npmVersion>6.14.0</npmVersion>
     </properties>
 
     <dependencies>
