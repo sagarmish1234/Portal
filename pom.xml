@@ -16,11 +16,11 @@
     <packaging>war</packaging>
     <description>Demo project for Spring Security</description>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
         <frontend-src-dir>${project.basedir}/frontend</frontend-src-dir>
         <frontend-maven-plugin.version>1.12.1</frontend-maven-plugin.version>
-        <node.version>v17.0.1</node.version>
-        <npm.version>8.1.0</npm.version>
+        <node.version>v18.12.1</node.version>
+        <npm.version>9.2.0</npm.version>
     </properties>
 
     <dependencies>
